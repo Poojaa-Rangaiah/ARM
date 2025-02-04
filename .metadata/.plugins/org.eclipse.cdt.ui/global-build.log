@@ -1,0 +1,35 @@
+09:26:21 **** Incremental Build of configuration Debug for project Peripheral_interrupt ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Peripheral_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/poojaa/STM32CubeIDE/workspace/Peripheral_interrupt/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Peripheral_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Peripheral_interrupt.elf
+ 
+arm-none-eabi-size  Peripheral_interrupt.elf 
+arm-none-eabi-objdump -h -S Peripheral_interrupt.elf  > "Peripheral_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+   3368	     92	   1900	   5360	   14f0	Peripheral_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: Peripheral_interrupt.list
+ 
+09:29:27 **** Incremental Build of configuration Debug for project Peripheral_interrupt ****
+make -j12 all 
+arm-none-eabi-size  Peripheral_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3368	     92	   1900	   5360	   14f0	Peripheral_interrupt.elf
+Finished building: default.size.stdout
+ 
+11:48:37 **** Incremental Build of configuration Debug for project Peripheral_interrupt ****
+make -j12 all 
+arm-none-eabi-size  Peripheral_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3368	     92	   1900	   5360	   14f0	Peripheral_interrupt.elf
+Finished building: default.size.stdout
+ 
+11:58:23 **** Incremental Build of configuration Debug for project Peripheral_interrupt ****
+make -j12 all 
+arm-none-eabi-size  Peripheral_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3368	     92	   1900	   5360	   14f0	Peripheral_interrupt.elf
+Finished building: default.size.stdout
+ 

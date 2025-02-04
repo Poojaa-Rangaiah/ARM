@@ -1,0 +1,4 @@
+../Src/main.c:8:6:change_access_level_unpriv	0	static,ignoring_inline_asm
+../Src/main.c:15:6:generate_interrupt	0	static
+../Src/main.c:21:6:HardFault_Handler	8	static
+../Src/main.c:25:5:main	8	static
