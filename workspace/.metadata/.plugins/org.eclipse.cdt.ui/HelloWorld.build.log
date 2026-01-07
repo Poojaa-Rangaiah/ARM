@@ -1,10 +1,10 @@
-21:13:46 **** Build of configuration Debug for project HelloWorld ****
+12:55:55 **** Build of configuration Debug for project HelloWorld ****
 make -j12 all 
 arm-none-eabi-size  HelloWorld.elf 
    text	   data	    bss	    dec	    hex	filename
-   3512	     92	   1900	   5504	   1580	HelloWorld.elf
+   4944	     92	   1900	   6936	   1b18	HelloWorld.elf
 Finished building: default.size.stdout
  
 
-21:13:46 Build Finished. 0 errors, 0 warnings. (took 191ms)
+12:55:56 Build Finished. 0 errors, 0 warnings. (took 229ms)
 

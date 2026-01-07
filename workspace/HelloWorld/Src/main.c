@@ -1,9 +1,15 @@
-#include <stdint.h>
+//#include <stdint.h>
 #include <stdio.h>
-#if !defined(__SOFT_FP__) && defined(__ARM_FP)
-  #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
-#endif
+#if 1
 
+int main() {
+	printf("HELLO WORLD!");
+	fflush(stdout); // can be used instead of \n for flushing the buffer.
+	for(;;);
+	return 0;
+}
+
+#else
 // Access level demonstration of the ARM processor
 void change_access_level_priv() {		// changing to PAL
 	__asm volatile (
@@ -39,3 +45,4 @@ int main(void)
     printf("In thread mode : After Interrupt.\n");
     for(;;);
 }
+#endif

@@ -1,3 +1,6 @@
+EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
+IMPORT_FILES_AND_FOLDERS_MODE=prompt
+IMPORT_FILES_AND_FOLDERS_VIRTUAL_FOLDER_MODE=prompt
 eclipse.preferences.version=1
 platformState=1719720741850
 quickStart=false

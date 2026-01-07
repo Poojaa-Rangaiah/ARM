@@ -1,2 +1,7 @@
-../Src/main.c:28:5:main	1
-../Src/main.c:45:6:USART3_IRQHandler	1
+../Src/main.c:88:6:irq_pri_config	1
+../Src/main.c:97:6:irq_en	1
+../Src/main.c:102:6:irq_pend	1
+../Src/main.c:107:5:main	1
+../Src/main.c:122:6:USART3_IRQHandler	1
+../Src/main.c:130:6:TIM6_DAC_IRQHandler	1
+../Src/main.c:137:6:OTG_HS_WKUP_IRQHandler	1

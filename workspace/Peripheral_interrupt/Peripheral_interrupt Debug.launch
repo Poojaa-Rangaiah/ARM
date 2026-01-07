@@ -46,7 +46,7 @@
     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.datatrace_1" value="Enabled=false:Address=0x0:Access=Read/Write:Size=Word:Function=Data Value"/>
     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.datatrace_2" value="Enabled=false:Address=0x0:Access=Read/Write:Size=Word:Function=Data Value"/>
     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.datatrace_3" value="Enabled=false:Address=0x0:Access=Read/Write:Size=Word:Function=Data Value"/>
-    <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.itmports" value="1:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"/>
+    <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.itmports" value="1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"/>
     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.itmports_priv" value="0:0:0:0"/>
     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.pc_sample" value="0:16384"/>
     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.swv.timestamps" value="1:1"/>
@@ -90,4 +90,5 @@
     </listAttribute>
     <stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;"/>
     <stringAttribute key="process_factory_id" value="com.st.stm32cube.ide.mcu.debug.launch.HardwareDebugProcessFactory"/>
+    <stringAttribute key="saved_expressions&lt;seperator&gt;Unknown" value="0x2001ffc8,0x2001ffc4,2001FFEC,0x2001FFEC,0x2001fff0"/>
 </launchConfiguration>

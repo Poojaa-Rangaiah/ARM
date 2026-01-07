@@ -31,7 +31,7 @@ int main(void) {
 	__asm volatile("LDR R1, [R2]");
 	__asm volatile("ADD R0, R0, R1");
 	__asm volatile("STR R0, [R2]");
-#endif
+#else
 
 	__asm volatile("MOV R0, %0": : "i"(0x09): );
 	int control_reg;
@@ -42,5 +42,6 @@ int main(void) {
 	*p2 = 30;
 	__asm volatile("LDR %0, [%1]": "=r"(p1): "r"(p2): );	//p1 = *p2
 //	printf("p1 = %d\n", p1);
+#endif
 	for (;;);
 }

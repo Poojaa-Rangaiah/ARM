@@ -1,23 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="USART3"/>
-		<item key="wrap" value="true"/>
+		<item key="selection" value="SVC"/>
+		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="usart3"/>
-			<item value="SVC"/>
-			<item value="_estack"/>
+			<item value="svc"/>
+			<item value="hard"/>
+			<item value="bus"/>
+			<item value="usage"/>
+			<item value="OTG_HS_WKUP"/>
+			<item value="TIM6_DAC"/>
+			<item value="USART3"/>
+			<item value="DELAY_COUNT_1S"/>
+			<item value="DELAY_COUNT_500MS"/>
+			<item value="DELAY_COUNT_250MS"/>
+			<item value="DELAY_COUNT_125MS"/>
+			<item value="delay"/>
+			<item value="update_g_ticks_count"/>
+			<item value="g_ticks_count"/>
+			<item value="TASK_RUNNING_STATE"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
+			<item value="1000"/>
+			<item value="500"/>
+			<item value="250"/>
+			<item value="125"/>
+			<item value="task_delay"/>
+			<item value="TASK_READY_STATE"/>
+			<item value="DELAY_COUNT_1MS"/>
+			<item value="DELAY_COUNT_500MS"/>
+			<item value="DELAY_COUNT_"/>
+			<item value="current_psp_val"/>
+			<item value="500000"/>
+			<item value="&lt;15&gt;"/>
+			<item value="&lt;12&gt;"/>
+			<item value="D"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="747"/>
-		<item key="DIALOG_Y_ORIGIN" value="236"/>
+		<item key="DIALOG_X_ORIGIN" value="909"/>
+		<item key="DIALOG_Y_ORIGIN" value="411"/>
 		<item key="DIALOG_WIDTH" value="357"/>
 		<item key="DIALOG_HEIGHT" value="408"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>

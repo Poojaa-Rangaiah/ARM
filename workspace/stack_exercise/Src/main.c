@@ -15,7 +15,7 @@
 /* Here this asm code is to prevent compiler from doing the unstacking operation (AAPCS) if it is done, the
  * control will be taken over by the MSP by default but here we are shifting to PSP.*/
 
-__attribute__((naked)) void change_psp_to_msp(void)
+__attribute__((naked)) void change_sp_to_psp(void)
 {
 //	__asm volatile("LDR R0,=STACK_PSP_START");	// We cannot use a C macro in an assembly function. So we'll use equal assembler directives
 //	__asm volatile("LDR R0, 0x1000000");
@@ -40,17 +40,17 @@ Used in OS environment when your application has separate kernel and user code t
 It can be given a value between 0-255.*/
 void generate_expression(void)
 {
-	__asm volatile("SVC #0x02");	// Calls the SVC exception handler in the thread mode.7
+	__asm volatile("SVC #0x02");	// Calls the SVC exception handler in the thread mode.
 }
 
 
 int main(void)
 {
-//	change_psp_to_msp();
+//	change_sp_to_psp();
 	uint16_t ret;
 	ret = fun_add(2, 4, 6, 8);
 	printf("result = %d.",ret);
-//	generate_expression();
+	generate_expression();
 
 	for(;;);
 }

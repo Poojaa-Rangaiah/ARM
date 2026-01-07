@@ -101,7 +101,7 @@ int main(void)
 	initialise_monitor_handles();		// This method must be initialized before using any printf();
  80001dc:	f000 ff28 	bl	8001030 <initialise_monitor_handles>
 
-	printf("Hello! Semihosting s/w debugger with openOCD middleware is being tested...\n");
+	printf("Hello! Semihosting s/w debugger with openOCD middleware is being tested...\n");	// w/o '\n' printf() doesn't print anything.
  80001e0:	4802      	ldr	r0, [pc, #8]	@ (80001ec <main+0x14>)
  80001e2:	f000 f97d 	bl	80004e0 <puts>
 

@@ -1,10 +1,10 @@
-11:58:23 **** Incremental Build of configuration Debug for project Peripheral_interrupt ****
+12:55:57 **** Build of configuration Debug for project Peripheral_interrupt ****
 make -j12 all 
 arm-none-eabi-size  Peripheral_interrupt.elf 
    text	   data	    bss	    dec	    hex	filename
-   3368	     92	   1900	   5360	   14f0	Peripheral_interrupt.elf
+   3692	     96	   1904	   5692	   163c	Peripheral_interrupt.elf
 Finished building: default.size.stdout
  
 
-11:58:23 Build Finished. 0 errors, 0 warnings. (took 179ms)
+12:55:57 Build Finished. 0 errors, 0 warnings. (took 231ms)
 
